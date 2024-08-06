@@ -7,3 +7,7 @@ Get-Childitem -path C:\Users\CTF -force -recurse -ErrorAction 'silentlycontinue'
 ```
 Get-Childitem -Path C:\Users\CTF -Force -Recurse 2>$null
 ```
+- Search by Filename
+```
+Get-Chilitem -Path C:\Users\CTF -Force -Recurse -Include '*key*' 2>$null
+```
