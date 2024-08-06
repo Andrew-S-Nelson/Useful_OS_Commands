@@ -1,5 +1,7 @@
 # File Search:
 
+
+
 ## Search by Attribute
 - Find all Files with an ADS:
 ```
