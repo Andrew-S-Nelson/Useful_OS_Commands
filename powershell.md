@@ -9,7 +9,7 @@ Get-Childitem -path C:\Users\CTF -force -recurse -ErrorAction 'silentlycontinue'
 ```
 - Find all hidden files
 ```
-Get-Childitem -Path C:\Users\CTF -Force -Recurse 2>$null
+Get-Childitem -Path C:\Users\CTF -Recurse -hidden 2>$null
 ```
 
 ## Search by String
@@ -19,7 +19,7 @@ Get-Childitem -Path C:\Users\CTF -Force -Recurse -Include '*key*' 2>$null
 ```
 - Search by contents
 ```
-Get-Childitem -Path 
+Get-Childitem -path C:\Users\CTF -force -recurse -ErrorAction 'silentlycontinue' | ForEach-Object {Get-Content $_.fullname | Where-Object {$_.stream -cmatch '.*SEARCH_KEY.*'} } 2>$null
 ```
 
 # Registry Search
