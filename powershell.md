@@ -28,7 +28,7 @@ Get-Childitem -path C:\Users\CTF -force -recurse -ErrorAction 'silentlycontinue'
 
 Persistence
 - `HKLM`
-  - `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run`
+  - ```HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run```
   - `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce`
 - `HKCU`
   - `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run`
