@@ -30,12 +30,11 @@ Persistence
 ```
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce
-```
-```
+or
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
-Or
+
 ```
 HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\Run
 HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\RunOnce
