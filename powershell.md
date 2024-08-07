@@ -68,7 +68,7 @@ Windows User Profiles
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList
 ```
 Note: to get account names and their SIDs side-by-side run the powershell command:
-`Get-Wmiobject win32_useraccount | Format-Table Name, SID`
+- `Get-Wmiobject win32_useraccount | Format-Table Name, SID`
 
 
 Network Profiles (history of wifi connections)
