@@ -35,7 +35,7 @@ Persistence
   - `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce`
 
 URL History
-- `HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\Children\001\Internet Explorer\DOMStorage`
+- ```HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\Children\001\Internet Explorer\DOMStorage```
 
 USB History
 - `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB`
