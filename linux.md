@@ -5,6 +5,5 @@ find / -name "*filename*" 2>/dev/null
 
 ## Find a file by contents
 ```
-find / ! -type d -exec grep "searchtext" {} 2>/dev/null \;
+find / -type f -exec grep "searchtext" {} 2>/dev/null \;
 ```
-
