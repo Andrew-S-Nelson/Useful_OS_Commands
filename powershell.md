@@ -1,11 +1,7 @@
-# File Search:
-
-
 ## Find All Files Recursively
 ```
 get-childitem -force -recurse -erroraction SilentlyContinue | Select Mode, LastWriteTime, Fullname
 ```
-
 ## Find Files with ADS
 ```
 Get-Childitem -path C:\Users\CTF -force -recurse -ErrorAction 'silentlycontinue' | ForEach-Object {Get-Item $_.fullname -Stream * | Where-Object {$_.stream -cnotmatch '.*DATA.*'} } 2>$null
