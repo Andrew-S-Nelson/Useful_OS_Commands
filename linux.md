@@ -1,10 +1,10 @@
 ## Find a file by filename
 ```
-find / -name "*syslog*" 2>/dev/null
+find / -name "*filename*" 2>/dev/null
 ```
 
 ## Find a file by contents
 ```
-find / 2>/dev/null -exec grep "searchtext" {}
+find / ! -type d -exec grep "searchtext" {} 2>/dev/null \;
 ```
 
