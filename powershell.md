@@ -35,6 +35,18 @@ HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
+Or
+```
+HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\Run
+HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\RunOnce
+```
+```
+HKEY_Local_Machine\SYSTEM\CurrentControlSet\services
+```
+```
+
+
+```
 
 Microsoft Edge URL History
 ```
