@@ -40,7 +40,7 @@ HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\Run
 HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
 ```
-HKEY_Local_Machine\SYSTEM\CurrentControlSet\services
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services
 ```
 
 Microsoft Edge URL History
