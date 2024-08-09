@@ -1,19 +1,17 @@
 ## Persistence
 ```
 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
 ```
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
 ```
 HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\Run
-HKEY_USER\<SID>\Software\Microsoft\Windows\CurrentVersion\RunOnce
 ```
 ```
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services
 ```
+Note: run `services.msc` to view running services and search for malicious services
 
 ## Microsoft Edge URL History
 ```
